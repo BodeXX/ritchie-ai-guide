@@ -14,7 +14,7 @@
 
 ---
 
-## 🛠️ Tech Stack & Foco
+## Tech Stack & Foco
 Este guia foi projetado para criar um Mentor Sênior especialista no ecossistema **Back-end com Node.js**. O escopo do conhecimento é focado e profundo, garantindo maestria nos seguintes pilares:
 
 - **Linguagem:** JavaScript (ES6+) e TypeScript
@@ -35,6 +35,12 @@ Ao invés de consumir conteúdo passivamente, eu estruturei as melhores referên
 2. Realiza Code Reviews baseados em princípios rígidos de engenharia.
 3. Guia na tomada de decisões arquiteturais.
 
+## 🚀 Case Study: O Mentor em Ação
+
+Para ver um exemplo real de como o Mentor Ritchie acelera o desenvolvimento, desde a análise de requisitos até a decisão de arquitetura, leia nosso Case Study detalhado.
+
+👉 **[Leia o Case Study Completo](docs/CASE_STUDY.md)**
+
 ## Por que "Ritchie"?
 
 O nome é uma homenagem a **Dennis Ritchie**, criador da linguagem C e do sistema Unix. Ele representa a fundação, a simplicidade e a importância de entender como as coisas funcionam "debaixo do capô". Este guia busca trazer essa mesma solidez para o meu aprendizado de Back-End Moderno.
@@ -50,7 +56,7 @@ O repositório aplica o conceito de **"Knowledge as Code"**, versionando o conhe
   └── /soft-skills      # O "Guia de Carreira" (Postura, Comunicação, Mercado)
 ```
 
-## 🤖 Como utilizar (NotebookLM Workflow)
+## Como utilizar (NotebookLM Workflow)
 Siga este fluxo para ativar o Mentor Sênior corretamente:
 
 1. **Setup da Base de Conhecimento**
@@ -74,8 +80,6 @@ Use os scripts da pasta `prompts/tasks/` quando precisar de ações específicas
 ## 🤝 Como Contribuir
 
 Quer adicionar um material de estudo ou melhorar um prompt?
-Nós seguimos padrões estritos para garantir a qualidade da IA.
-
 Nós seguimos padrões estritos para garantir a qualidade da IA.
 
 👉 **[Leia nosso Guia de Contribuição Completo](docs/contributing/GUIDE.md)** para aprender como abrir um Pull Request e formatar seus links corretamente.
