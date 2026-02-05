@@ -35,7 +35,7 @@ Ao invés de consumir conteúdo passivamente, eu estruturei as melhores referên
 2. Realiza Code Reviews baseados em princípios rígidos de engenharia.
 3. Guia na tomada de decisões arquiteturais.
 
-## 🚀 Case Study: O Mentor em Ação
+## Case Study: O Mentor em Ação
 
 Para ver um exemplo real de como o Mentor Ritchie acelera o desenvolvimento, desde a análise de requisitos até a decisão de arquitetura, leia nosso Case Study detalhado.
 
