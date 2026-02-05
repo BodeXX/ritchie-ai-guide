@@ -1,5 +1,10 @@
 # 🧙‍♂️ Ritchie: The AI Senior Mentor Guide
 
+<div align="center">
+  <img src="assets/images/demo-ritchie-chat.png" alt="Demo do Ritchie Mentor" width="700">
+  <p><em>Exemplo real: O Mentor Sênior identificando o nível do aluno e propondo desafios práticos.</em></p>
+</div>
+
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![Knowledge Strategy](https://img.shields.io/badge/Strategy-Knowledge_as_Code-blueviolet)
 ![Focus](https://img.shields.io/badge/Focus-Seniority_Acceleration-orange)
@@ -9,15 +14,26 @@
 
 ---
 
+## 🛠️ Tech Stack & Foco
+Este guia foi projetado para criar um Mentor Sênior especialista no ecossistema **Back-end com Node.js**. O escopo do conhecimento é focado e profundo, garantindo maestria nos seguintes pilares:
+
+- **Linguagem:** JavaScript (ES6+) e TypeScript
+- **Runtime:** Node.js
+- **Banco de Dados:** PostgreSQL (SQL puro e ORM)
+- **Infraestrutura:** Docker e Docker Compose
+- **Conceitos:** Clean Code, SOLID e Arquitetura de Software
+
+*Este mentor **não** é especialista em Java, Python, ou frameworks de Frontend avançados.*
+
 ## O que é este projeto?
 
 O **Ritchie AI Guide** não é apenas uma lista de estudos. É um projeto de **Engenharia de Conhecimento** projetado para transformar documentação estática (vídeos, docs, artigos) em um **Contexto Ativo** para Inteligências Artificiais.
 
 Ao invés de consumir conteúdo passivamente, eu estruturei as melhores referências do mercado (Clean Code, SOLID, Arquitetura Hexagonal) em arquivos Markdown otimizados (`sources/`). Quando alimentados em uma LLM (como o Google NotebookLM ou Gemini), esses arquivos criam a persona de um **Mentor Sênior** que:
 
-1. Conhece minha stack tecnológica profundamente.
+1. Conhece a stack tecnológica definida profundamente.
 2. Realiza Code Reviews baseados em princípios rígidos de engenharia.
-3. Me guia na tomada de decisões arquiteturais.
+3. Guia na tomada de decisões arquiteturais.
 
 ## Por que "Ritchie"?
 
@@ -29,48 +45,37 @@ O repositório aplica o conceito de **"Knowledge as Code"**, versionando o conhe
 
 ```text
 /sources
-  ├── /tech-stack       # O "Manual Técnico" (Node.js, Docker, TS, DBs)
+  ├── /tech-stack       # A Trilha Técnica (Lógica, Node.js, Docker, etc.)
   ├── /architecture     # A "Constituição" (Clean Code, SOLID, Design Patterns)
   └── /soft-skills      # O "Guia de Carreira" (Postura, Comunicação, Mercado)
 ```
 
+## 🤖 Como utilizar (NotebookLM Workflow)
+Siga este fluxo para ativar o Mentor Sênior corretamente:
 
-## Como Utilizar: Setup em 3 Passos
+1. **Setup da Base de Conhecimento**
+Faça o upload de todos os arquivos `.md` da pasta `/sources` para o NotebookLM. Isso carrega a memória técnica (Node, Docker, Clean Code).
 
-Para ativar o mentor "Ritchie" em uma IA como o Google NotebookLM ou Gemini, siga este fluxo que separa claramente o **Contexto** da **Instrução**.
+2. **Injeção de Persona**
+Faça o upload do arquivo `prompts/core-persona/01_system_prompt.md` junto com as fontes. **Importante:** Não cole o texto no chat. Suba o arquivo para que a personalidade fique salva na memória.
 
-### Passo 1: Fornecer o Contexto (Sources)
+3. **Ativação (Boot)**
+No chat do NotebookLM, envie apenas este comando:
 
-A IA precisa da base de conhecimento. Faça o upload de **todos os arquivos `.md`** localizados dentro das pastas em `/sources` para a área de fontes da sua IA.
+> "Leia o arquivo `01_system_prompt.md` e ative a persona Ritchie agora."
 
-- `sources/tech-stack/`
-- `sources/architecture/`
-- `sources/soft-skills/`
+4. **Modos de Operação**
+Use os scripts da pasta `prompts/tasks/` quando precisar de ações específicas:
 
-Estes arquivos funcionam como a "biblioteca" do mentor, contendo todos os padrões e tecnologias que ele deve dominar.
-
-### Passo 2: Ativar a Persona (Prompt)
-
-Para que a IA assuma a personalidade e as diretrizes do mentor sênior, copie o conteúdo completo do arquivo abaixo e **cole como a primeira mensagem no chat**:
-
-- `prompts/core-persona/system_prompt.md`
-
-Este prompt instrui a IA a agir como "Ritchie", um especialista exigente e focado nos padrões definidos nos seus arquivos-fonte.
-
-### Passo 3: Interagir com o Mentor
-
-Com o contexto carregado e a persona ativada, você pode começar a interagir. Seja específico e direto.
-
-**Exemplo de prompt de uso:**
-
-> *"Ritchie, recebi uma nova demanda para criar um microsserviço de notificações. Com base na nossa documentação de arquitetura, qual padrão (REST, gRPC ou outro) você recomendaria e por quê? Detalhe os trade-offs."*
-
-Este processo garante que a IA não apenas tenha acesso à informação, mas que atue sobre ela com a intencionalidade que você definiu.
-
+- **Calibragem:** *"Ritchie, rode o Dynamic Assessment."*
+- **Code Review:** *"Ritchie, aplique o Template de Code Review."*
+- **Crise:** *"Ritchie, inicie o Simulador de Crise."*
 
 ## 🤝 Como Contribuir
 
 Quer adicionar um material de estudo ou melhorar um prompt?
+Nós seguimos padrões estritos para garantir a qualidade da IA.
+
 Nós seguimos padrões estritos para garantir a qualidade da IA.
 
 👉 **[Leia nosso Guia de Contribuição Completo](docs/contributing/GUIDE.md)** para aprender como abrir um Pull Request e formatar seus links corretamente.

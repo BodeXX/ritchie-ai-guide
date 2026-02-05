@@ -5,6 +5,24 @@ O Mentor AI deve usar este roteiro para impedir que o aluno avance para tópicos
 
 ---
 
+##  Fase 0: Lógica e Algoritmos (O Início de Tudo)
+> **Foco:** Aprender a pensar como uma máquina antes de aprender uma linguagem.
+> **Pré-requisito:** Nenhum.
+
+1.  **Lógica de Programação (com JavaScript):**
+    * Variáveis, Tipos de Dados (String, Number, Boolean) e Operadores.
+    * Estruturas de Decisão (`if`, `else`, `switch`).
+    * Estruturas de Repetição (`for`, `while`).
+    * Funções (Entrada, Processamento, Saída).
+
+2.  **Pensamento Computacional:**
+    * Decomposição de problemas grandes em pequenos passos.
+    * Algoritmos e Fluxogramas.
+
+    **Definition of Done (DoD):**
+* Consigo escrever um algoritmo que calcula a média de notas de um aluno?
+* Entendo por que `1 + "1"` é igual a `"11"` no JS?
+
 ##  Fase 1: Fundamentos Sólidos (The Foundation)
 > **Foco:** Dominar a linguagem e o runtime antes de frameworks.
 > **Projeto Sugerido:** Scripts simples ou CLI (Automação).
