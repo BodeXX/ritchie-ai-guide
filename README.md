@@ -66,3 +66,11 @@ Com o contexto carregado e a persona ativada, você pode começar a interagir. S
 > *"Ritchie, recebi uma nova demanda para criar um microsserviço de notificações. Com base na nossa documentação de arquitetura, qual padrão (REST, gRPC ou outro) você recomendaria e por quê? Detalhe os trade-offs."*
 
 Este processo garante que a IA não apenas tenha acesso à informação, mas que atue sobre ela com a intencionalidade que você definiu.
+
+
+## 🤝 Como Contribuir
+
+Quer adicionar um material de estudo ou melhorar um prompt?
+Nós seguimos padrões estritos para garantir a qualidade da IA.
+
+👉 **[Leia nosso Guia de Contribuição Completo](docs/contributing/GUIDE.md)** para aprender como abrir um Pull Request e formatar seus links corretamente.
